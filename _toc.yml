@@ -1,18 +1,43 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 示例部分
+  - caption: 模型
     chapters:
-      - file: 1_example_chapter/README.md
+      - file: models/language/README.md
         sections:
-          - file: 1_example_chapter/1_example_section/README.md
-            sections:
-              - file: 1_example_chapter/1_example_section/1_example_article.md
-              - file: 1_example_chapter/1_example_section/1_example_article2.md
-          - file: 1_example_chapter/2_example_article3.md
-  - caption: 示例部分2
+          - file: models/language/gpt.md
+          - file: models/language/claude.md
+      - file: models/image/README.md
+      - file: models/video/README.md
+  - caption: 场景
     chapters:
-      - file: 2_example_chapter2/README.md
+      - file: scenarios/writing/README.md
         sections:
-          - file: 2_example_chapter2/1_example_section2/README.md
-      - file: 3_example_chapter3/README.md
+          - file: scenarios/writing/business_writing/README.md
+          - file: scenarios/writing/academic_writing/README.md
+          - file: scenarios/writing/technical_writing/README.md
+          - file: scenarios/writing/popular_science_writing/README.md
+          - file: scenarios/writing/creative_writing/README.md
+          - file: scenarios/writing/online_writing/README.md
+      - file: scenarios/programming/README.md
+  - caption: 行业
+    chapters:
+      - file: industries/education/README.md
+      - file: industries/psychology/README.md
+      - file: industries/game/README.md
+  - caption: 调优
+    chapters:
+      - file: tuning/prompt_engineering/README.md
+        sections:
+          - file: tuning/prompt_engineering/prompt_tuning/README.md
+      - file: tuning/rag/README.md
+      - file: tuning/fine_tuning/README.md
+  - caption: 智能体框架
+    chapters:
+      - file: agent_frameworks/single_agents/README.md
+      - file: agent_frameworks/multi_agents/README.md
+  - caption: 智能体应用
+    chapters:
+      - file: agent_applications/writing_agents/README.md
+      - file: agent_applications/programming_agents/README.md
+      - file: agent_applications/digital_humans/README.md
