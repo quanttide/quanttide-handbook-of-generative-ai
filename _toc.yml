@@ -25,7 +25,16 @@ parts:
       - file: industries/education/README.md
       - file: industries/psychology/README.md
       - file: industries/game/README.md
-  - caption: 调优
+  - caption: 工具链
+    chapters:
+      - file: toolchains/llmops_platforms/README.md
+        sections:
+          - file: toolchains/llmops_platforms/dify.md
+          - file: toolchains/llmops_platforms/amazon_bedrock.md
+      - file: toolchains/vector_databases/README.md
+        sections:
+          - file: toolchains/vector_databases/chroma.md
+  - caption: 调优方法
     chapters:
       - file: tuning/prompt_engineering/README.md
         sections:
