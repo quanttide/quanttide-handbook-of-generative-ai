@@ -7,6 +7,7 @@ parts:
         sections:
           - file: models/language/gpt.md
           - file: models/language/claude.md
+      - file: models/audio/README.md
       - file: models/image/README.md
       - file: models/video/README.md
   - caption: 场景
@@ -23,6 +24,11 @@ parts:
   - caption: 行业
     chapters:
       - file: industries/education/README.md
+        sections:
+          - file: industries/education/higher_education/README.md
+      - file: industries/media/README.md
+        sections:
+          - file: industries/media/new_media/README.md
       - file: industries/psychology/README.md
       - file: industries/game/README.md
   - caption: 工具链
