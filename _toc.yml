@@ -29,6 +29,8 @@ parts:
       - file: industries/media/README.md
         sections:
           - file: industries/media/new_media/README.md
+            sections:
+              - file: industries/media/new_media/short_video.md
       - file: industries/psychology/README.md
       - file: industries/game/README.md
   - caption: 工具链
