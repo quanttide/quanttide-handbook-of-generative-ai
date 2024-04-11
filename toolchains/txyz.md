@@ -1,3 +1,5 @@
 # Txyz
-https://www.txyz.ai/
+
+[Txyz](https://www.txyz.ai/)
+
 读Paper

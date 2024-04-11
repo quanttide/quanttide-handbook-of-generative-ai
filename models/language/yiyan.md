@@ -1,2 +1,3 @@
 # 文心一言
-https://yiyan.baidu.com/welcome
+
+[文心一言](https://yiyan.baidu.com/welcome)

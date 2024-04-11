@@ -1,6 +1,6 @@
 # 新媒体
 
-Kimi拆解小红书账号https://www.xiaohongshu.com/explore/66140c87000000001b011515?app_platform=ios&app_version=8.30&author_share=1&share_from_user_hidden=true&type=video&xhsshare=CopyLink&shareRedId=Nz9GMjNLNj48TEpDQUA3Szw0TT49Pj5A&apptime=1712666772
+[Kimi拆解小红书账号](https://www.xiaohongshu.com/explore/66140c87000000001b011515?app_platform=ios&app_version=8.30&author_share=1&share_from_user_hidden=true&type=video&xhsshare=CopyLink&shareRedId=Nz9GMjNLNj48TEpDQUA3Szw0TT49Pj5A&apptime=1712666772)
 
 ## 用户需求
 

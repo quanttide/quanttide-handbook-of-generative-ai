@@ -8,5 +8,5 @@
 
 参考资料：
 
-- https://mp.weixin.qq.com/s/JUWLdYJm0CX5Bj-r55MC8w
-- https://mp.weixin.qq.com/s/dlHNeOTmQ1FbpZICPj_GSw
+- [指南 | 用ChatGPT一小时无痛写论文（上）](https://mp.weixin.qq.com/s/JUWLdYJm0CX5Bj-r55MC8w)
+- [指南 | 用ChatGPT一小时无痛写论文（下）](https://mp.weixin.qq.com/s/dlHNeOTmQ1FbpZICPj_GSw)
