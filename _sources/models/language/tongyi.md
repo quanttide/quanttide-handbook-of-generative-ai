@@ -1,2 +1,3 @@
 # 通义千问
-https://tongyi.aliyun.com/qianwen/
+
+[通义千问](https://tongyi.aliyun.com/qianwen/)

@@ -1,3 +1,5 @@
 # Runway
-https://runwayml.com/
+
+[Runway](https://runwayml.com/)
+
 实时涂抹技术，老牌视频生成AI，效果除Sora外最好。但有效片段只有三秒，三秒之后的再生成最长到九秒，但是后面六秒就完全失去了算法上的注意力。在商业上的利用性不大。
