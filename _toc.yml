@@ -99,7 +99,7 @@ parts:
       - file: industries/sofwares/README.md
         sections:
           - file: industries/softwares/developments/README.md
-          - file: industries/softwares/oprations_maitenances/README.md
+          - file: industries/softwares/operations_maitenances/README.md
             sections:
               - file: industries/softwares/operations_maitenances/interactions.md
       - file: industries/designs/README.md
@@ -125,7 +125,7 @@ parts:
           - file: toolchains/searchings/meta_ai.md
       - file: toolchains/dev_tools/README.md
         sections:
-          - file: toolchains/dev_tools/llmops_platforms
+          - file: toolchains/dev_tools/llmops_platforms/README.md
             sections:
               - file: toolchains/dev_tools/llmops_platforms/dify.md
               - file: toolchains/dev_tools/llmops_platforms/amazon_bedrock.md
