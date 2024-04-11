@@ -96,7 +96,7 @@ parts:
           - file: industries/education/vocational_education/README.md
             sections:
               - file: industries/education/vocational_education/trainings.md
-      - file: industries/sofwares/README.md
+      - file: industries/softwares/README.md
         sections:
           - file: industries/softwares/developments/README.md
           - file: industries/softwares/operations_maitenances/README.md
