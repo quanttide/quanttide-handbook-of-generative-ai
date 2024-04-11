@@ -3,15 +3,59 @@ root: index.md
 parts:
   - caption: 模型
     chapters:
+      # 语言
       - file: models/language/README.md
         sections:
           - file: models/language/gpt.md
           - file: models/language/claude.md
+          - file: models/language/chatglm.md
+          - file: models/language/tongyi.md
+          - file: models/language/yiyan.md
+          - file: models/language/kimi.md
+      # 语音
       - file: models/audio/README.md
+        sections:
+          - file: models/audio/hume_ai.md
+          - file: models/audio/elevenlabs.md
+          - file: models/audio/gpt_sovits.md
+          - file: models/audio/openai_tts.md
+          - file: models/audio/amazon_polly.md
+          - file: models/audio/suno.md
+      # 图像
       - file: models/image/README.md
+        sections:
+          - file: models/image/dall_e.md
+          - file: models/image/midjourney.md
+          - file: models/image/stable_diffusion.md
+      # 视频
       - file: models/video/README.md
+        sections:
+          - file: models/video/sora.md
+          - file: models/video/runway.md
+          - file: models/video/stable_video.md
+          - file: models/video/invideo_ai.md
+          - file: models/video/latte.md
+          - file: models/video/pika.md
+          - file: models/video/open_sora.md
+          - file: models/video/opendit.md
+          - file: models/video/moneyprinterturbo.md
+          - file: models/video/domo_ai.md
+          - file: models/video/sommthie.md
   - caption: 场景
     chapters:
+      # 对话
+      - file: scenarios/dialogue/README.md
+        sections:
+          - file: scenarios/dialogue/customer_service.md
+          - file: scenarios/dialogue/assistant.md
+          - file: scenarios/dialogue/sale.md
+          - file: scenarios/dialogue/emotional_companionship.md
+      # 阅读
+      - file: scenarios/reading/README.md
+        sections:
+          - file: scenarios/reading/searching.md
+          - file: scenarios/reading/summary.md
+      # 写作
       - file: scenarios/writing/README.md
         sections:
           - file: scenarios/writing/business_writing/README.md
@@ -19,13 +63,48 @@ parts:
           - file: scenarios/writing/technical_writing/README.md
           - file: scenarios/writing/popular_science_writing/README.md
           - file: scenarios/writing/creative_writing/README.md
+            sections:
+              - file: scenarios/writing/creative_writing/novels.md
           - file: scenarios/writing/online_writing/README.md
+      # 编程
       - file: scenarios/programming/README.md
+        sections:
+          - file: scenarios/programming/client_side/README.md
+            sections:
+              - file: scenarios/programming/client_side/flutter.md
+          - file: scenarios/programming/database_query/README.md
+            sections:
+              - file: scenarios/programming/database_query/sql.md
+              - file: scenarios/programming/database_query/db_gpt.md
+              - file: scenarios/programming/database_query/sqlcoder.md
   - caption: 行业
     chapters:
+      - file: industries/publishments/README.md
+      - file: industries/ecommerce/README.md
+        sections:
+          - file: industries/ecommerce/live_ecommerce/README.md
+            sections:
+              - file: industries/ecommerce/live_ecommerce/clothings.md
       - file: industries/education/README.md
         sections:
           - file: industries/education/higher_education/README.md
+            sections:
+              - file: industries/education/higher_education/teachers/README.md
+                sections:
+                  - file: industries/education/higher_education/teachers/prepare_lessons.md
+                  - file: industries/education/higher_education/teachers/make_instructional_videos.md
+          - file: industries/education/vocational_education/README.md
+            sections:
+              - file: industries/education/vocational_education/trainings.md
+      - file: industries/sofwares/README.md
+        sections:
+          - file: industries/softwares/developments/README.md
+          - file: industries/softwares/oprations_maitenances/README.md
+            sections:
+              - file: industries/softwares/operations_maitenances/interactions.md
+      - file: industries/designs/README.md
+        sections:
+          - file: industries/designs/flat_designs.md
       - file: industries/media/README.md
         sections:
           - file: industries/media/new_media/README.md
@@ -33,15 +112,27 @@ parts:
               - file: industries/media/new_media/short_video.md
       - file: industries/psychology/README.md
       - file: industries/game/README.md
-  - caption: 工具链
+  - caption: 工具
     chapters:
-      - file: toolchains/llmops_platforms/README.md
+      - file: toolchains/firstmark.md
+      - file: toolchains/zoomerang.md
+      - file: toolchains/ryzen_ai.md
+      - file: toolchains/txyz.md
+      - file: toolchains/ideogram.md
+      - file: toolchains/searchings/README.md
         sections:
-          - file: toolchains/llmops_platforms/dify.md
-          - file: toolchains/llmops_platforms/amazon_bedrock.md
-      - file: toolchains/vector_databases/README.md
+          - file: toolchains/searchings/morph.md
+          - file: toolchains/searchings/meta_ai.md
+      - file: toolchains/dev_tools/README.md
         sections:
-          - file: toolchains/vector_databases/chroma.md
+          - file: toolchains/dev_tools/llmops_platforms
+            sections:
+              - file: toolchains/dev_tools/llmops_platforms/dify.md
+              - file: toolchains/dev_tools/llmops_platforms/amazon_bedrock.md
+              - file: toolchains/dev_tools/llmops_platforms/ragflow.md
+          - file: toolchains/dev_tools/vector_databases/README.md
+            sections:
+              - file: toolchains/dev_tools/vector_databases/chroma.md
   - caption: 调优方法
     chapters:
       - file: tuning/prompt_engineering/README.md
@@ -58,3 +149,11 @@ parts:
       - file: agent_applications/writing_agents/README.md
       - file: agent_applications/programming_agents/README.md
       - file: agent_applications/digital_humans/README.md
+        sections:
+          - file: agent_applications/digital_humans/heygen.md
+          - file: agent_applications/digital_humans/did.md
+          - file: agent_applications/digital_humans/sadtalker.md
+          - file: agent_applications/digital_humans/jianyin.md
+          - file: agent_applications/digital_humans/streaming_avatar.md
+          - file: agent_applications/digital_humans/hume.md
+          - file: agent_applications/digital_humans/flyworks.md
